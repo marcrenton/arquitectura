@@ -234,3 +234,12 @@ img {
 .contenido-nosotros p {
   margin-bottom: 1rem;
 }
+
+/**modelos**/
+
+.modelo {
+  display: grid;
+  grid-template-rows: repeat(2/1);
+}
+
+.contenido-modelo;
