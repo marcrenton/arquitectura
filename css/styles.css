@@ -76,3 +76,19 @@ img {
 .mt-5 {
   margin-top: 5rem;
 }
+
+/**HEADER***/
+.header {
+  min-height: 60rem;
+  background-image: url(/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 0;
+  }
+}
